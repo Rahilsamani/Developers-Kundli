@@ -9,7 +9,7 @@ Developer's Kundli is a web application that allows you to search for GitHub use
 - Fetch and display user data using the GitHub API
 - Display user profile information including avatar, name, username, bio, location, repositories, followers, and followings
 
-## Screenshots
+## Screenshot
 
 ![Screenshot](images/projectDemo.png)
 
