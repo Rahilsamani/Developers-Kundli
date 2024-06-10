@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer's Kundli</title>
+
+    <!-- favicon icon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+
+    <!-- font Awesom Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- External css link -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <h3 class="BrandName">Developer's Kundli</h3>
+        <div class="dark-mode-btn">
+          <p class="dark-text">Dark</p>
+          <img src="images/moon-icon.svg" class="moon active" />
+          <img src="images/sun-icon.svg" class="sun" />
+        </div>
+      </div>
+
+      <div class="search-container">
+        <div class="input-container">
+          <img src="images/search-icon.svg" width="20" height="20" />
+
+          <input
+            class="search-bar"
+            type="search"
+            placeholder="Enter a GitHub username..."
+          />
+
+          <p class="error">no search results</p>
+        </div>
+
+        <div class="search-btn">
+          <button search-btn>Search</button>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="image-section">
+          <img src="" data-Userimage />
+        </div>
+
+        <div class="main-container">
+          <div class="user-details">
+            <div>
+              <p data-name></p>
+              <a href="" data-username target="_blank"></a>
+            </div>
+            <div>
+              <p class="joined-date" data-joined-date></p>
+            </div>
+          </div>
+
+          <div>
+            <p data-desc>This profile has no bio</p>
+          </div>
+
+          <div class="social-media-section">
+            <div>
+              <p>Repos</p>
+              <p class="number" data-repo></p>
+            </div>
+            <div>
+              <p>Followers</p>
+              <p class="number" data-followers></p>
+            </div>
+            <div>
+              <p>Followings</p>
+              <p class="number" data-following></p>
+            </div>
+          </div>
+
+          <div class="user-info-section">
+            <div class="connect">
+              <img src="images/location-icon.svg" location-logo class="logo" />
+              <p class="location" data-location></p>
+            </div>
+
+            <div class="connect">
+              <img
+                src="images/website-icon.svg"
+                alt=""
+                blog-logo
+                class="logo"
+              />
+              <a href="" class="connect-link" data-blog-link></a>
+            </div>
+
+            <div class="connect">
+              <img
+                src="images/twitter-icon.svg"
+                alt=""
+                twitter-logo
+                class="logo"
+              />
+              <a href="" class="twitter-link" data-twitter></a>
+            </div>
+
+            <div class="connect">
+              <img
+                src="images/company-icon.svg"
+                alt=""
+                company-logo
+                class="logo"
+              />
+              <p class="company-name" data-company-name></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
